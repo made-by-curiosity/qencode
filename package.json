@@ -1,5 +1,5 @@
 {
-  "name": "curiosity-light-react-vite-template",
+  "name": "qencode-login",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -13,7 +13,9 @@
     "axios": "^1.6.8",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.1",
+    "react-router-dom": "^6.22.3"
   },
   "devDependencies": {
     "@svgr/plugin-svgo": "^8.1.0",
