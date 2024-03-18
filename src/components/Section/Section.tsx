@@ -1,16 +1,13 @@
-import { FC, ReactNode } from "react";
+import { FC } from "react";
 import styles from "./Section.module.css";
-import Logo from "src/assets/svg/logo.svg?react";
+import { ISectionProps } from "./types";
+import { Logo } from "../Logo";
 
-export interface ISectionProps {
-  children: ReactNode;
-}
-
-export const Section: FC<ISectionProps> = ({ children }) => {
+export const Section: FC<ISectionProps> = ({ children, title }) => {
   return (
     <div className={styles.section}>
-      <Logo />
-      <p>Welcome!</p>
+      <Logo className={styles.logo} />
+      {title && <p className={styles.title}>{title}</p>}
       {children}
     </div>
   );

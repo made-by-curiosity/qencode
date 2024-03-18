@@ -9,3 +9,17 @@
     padding: 180px 0;
   }
 }
+
+.logo {
+  margin-bottom: 80px;
+}
+
+.title {
+  margin-bottom: 40px;
+
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+
+  color: var(--text-title);
+}
