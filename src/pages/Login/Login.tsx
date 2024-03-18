@@ -4,6 +4,7 @@ import { Section } from "src/components/Section";
 import GoogleIcon from "src/assets/svg/google.svg?react";
 import GithubIcon from "src/assets/svg/github.svg?react";
 import { SecondaryButton } from "src/components/SecondaryButton";
+import { Divider } from "src/components/Divider";
 
 export const Login = () => {
   return (
@@ -20,6 +21,7 @@ export const Login = () => {
               GitHub
             </SecondaryButton>
           </div>
+          <Divider text="or" className={styles.loginDivider} />
         </div>
       </Section>
     </Container>
