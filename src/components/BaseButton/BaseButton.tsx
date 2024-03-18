@@ -1,10 +1,15 @@
-import { FC, ReactNode } from "react";
+import { FC } from "react";
 import styles from "./BaseButton.module.css";
+import { IBaseButtonProps } from "./types";
 
-export interface IBaseButtonProps {
-  children: ReactNode;
-}
-
-export const BaseButton: FC<IBaseButtonProps> = ({ children }) => {
-  return <button className={styles.button}>{children}</button>;
+export const BaseButton: FC<IBaseButtonProps> = ({
+  children,
+  className,
+  ...rest
+}) => {
+  return (
+    <button className={`${styles.button} ${className}`} {...rest}>
+      {children}
+    </button>
+  );
 };

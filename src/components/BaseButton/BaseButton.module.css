@@ -9,5 +9,20 @@
   border-radius: 8px;
 
   font-weight: 500;
-  line-height: 1.31;
+  line-height: 1;
+  transition: opacity 100ms ease-in-out;
+}
+
+.button:hover:not(:disabled),
+.button:focus:not(:disabled) {
+  opacity: 0.6
+}
+
+.button:active:not(:disabled) {
+  opacity: 0.3
+}
+
+.button:disabled {
+  color: var(--placeholder);
+  cursor: default;
 }
