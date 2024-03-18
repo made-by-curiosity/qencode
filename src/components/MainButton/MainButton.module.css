@@ -1,0 +1,5 @@
+.mainButton {
+  background-color: var(--accent-main);
+  border-color: var(--accent-main);
+  color: var(--background-main);
+}

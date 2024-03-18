@@ -15,14 +15,14 @@
 
 .button:hover:not(:disabled),
 .button:focus:not(:disabled) {
-  opacity: 0.6
+  opacity: 0.8
 }
 
 .button:active:not(:disabled) {
-  opacity: 0.3
+  opacity: 0.6
 }
 
 .button:disabled {
-  color: var(--placeholder);
   cursor: default;
+  opacity: 0.6
 }
