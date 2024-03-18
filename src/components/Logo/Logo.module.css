@@ -1,0 +1,5 @@
+.logoWrapper>.icon {
+  display: flex;
+  margin: 0 auto;
+  color: var(--accent-main);
+}
