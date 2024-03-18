@@ -1,0 +1,20 @@
+.loginBtn {
+  margin-bottom: 20px;
+}
+
+.text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+}
+
+.inputsWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.forgotLink {
+  margin-bottom: 30px;
+  text-align: end;
+}
