@@ -1,0 +1,9 @@
+.contentWrapper {
+  max-width: 400px;
+  margin: 0 auto
+}
+
+.socialBtnsWrapper {
+  display: flex;
+  gap: 16px
+}

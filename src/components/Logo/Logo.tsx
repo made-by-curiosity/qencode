@@ -8,7 +8,7 @@ export interface ILogoProps {
 
 export const Logo: FC<ILogoProps> = ({ className }) => {
   return (
-    <div className={`${styles.logoWrapper} ${className}`}>
+    <div className={`${styles.logoWrapper} ${className || ""}`}>
       <LogoIcon className={styles.icon} />
     </div>
   );
