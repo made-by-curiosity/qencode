@@ -1,0 +1,21 @@
+button.secondaryButton {
+  background-color: var(--background-main);
+  border-color: var(--border);
+  color: var(--text-main);
+}
+
+.secondaryButton:hover:not(:disabled),
+.secondaryButton:focus:not(:disabled) {
+  background-color: var(--divider);
+  border-color: var(--divider);
+}
+
+.secondaryButton:active:not(:disabled) {
+  background-color: var(--divider);
+  border-color: var(--divider);
+}
+
+.secondaryButton:disabled {
+  background-color: var(--divider);
+  border-color: var(--divider);
+}

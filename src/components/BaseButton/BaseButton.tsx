@@ -8,8 +8,8 @@ export const BaseButton: FC<IBaseButtonProps> = ({
   ...rest
 }) => {
   return (
-    <button className={`${styles.button} ${className}`} {...rest}>
-      {children}
+    <button className={`${styles.button} ${className || ""}`} {...rest}>
+      <div className={styles.btnContent}>{children}</div>
     </button>
   );
 };

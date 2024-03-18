@@ -1,15 +1,18 @@
 import { FC } from "react";
+import styles from "./SecondaryButton.module.css";
 import { BaseButton } from "../BaseButton";
-import styles from "./MainButton.module.css";
 import { IBaseButtonProps } from "../BaseButton/types";
 
-export const MainButton: FC<IBaseButtonProps> = ({
+export const SecondaryButton: FC<IBaseButtonProps> = ({
   children,
   className,
   ...rest
 }) => {
   return (
-    <BaseButton className={`${styles.mainButton} ${className || ""}`} {...rest}>
+    <BaseButton
+      className={`${styles.secondaryButton} ${className || ""}`}
+      {...rest}
+    >
       {children}
     </BaseButton>
   );
