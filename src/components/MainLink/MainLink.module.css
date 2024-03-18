@@ -1,0 +1,9 @@
+.link {
+  color: var(--accent-main);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: normal;
+
+  transition: all 100ms ease-in-out;
+}
